@@ -1,1 +1,12 @@
 @import url('bootstrap');
+
+#bg_footer{
+    background-color: #e84f18;
+}
+
+#bg_header{
+    background-color: #fcee02;
+}
+.text_funny {
+    color: #fcee02;
+}

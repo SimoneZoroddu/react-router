@@ -8,7 +8,7 @@ export default function AppHeader() {
 
 
     return (
-        <header>
+        <header id='bg_header'>
             <nav>
                 {
                     menuheader.map(item => (

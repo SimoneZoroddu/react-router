@@ -2,17 +2,17 @@ const menu = [
     {
         id: 1,
         path: '/',
-        text: 'Home'
+        text: 'Homepage'
     },
     {
         id: 2,
-        path: '/products',
-        text: 'Products'
+        path: '/prodotti',
+        text: 'Prodotti'
     },
     {
         id: 3,
-        path: '/contacts',
-        text: 'Contacs'
+        path: '/chisiamo',
+        text: 'Chi Siamo'
     }
 ]
 
