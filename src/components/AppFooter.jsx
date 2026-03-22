@@ -9,7 +9,7 @@ export default function AppFooter() {
             <div className="container py-5">
                 <div className="row">
                     <div className="col text_funny">
-                        <h3>Perché Sumba Teka</h3>
+                        <h3>Perché <span className='indie-flower-regular'>Sumba Teka</span></h3>
                         <ul className='list-unstyled'>
                             <li className='py-1'><Link className='list-group-item d-inline'>Chi Siamo?</Link></li>
                             <li className='py-1'><Link className='list-group-item d-inline'>Perché sceglierci</Link></li>

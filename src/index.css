@@ -1,4 +1,6 @@
 @import url('bootstrap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 #bg_footer{
     background-color: #e84f18;
@@ -7,6 +9,23 @@
 #bg_header{
     background-color: #fcee02;
 }
+
 .text_funny {
     color: #fcee02;
+}
+
+.text_confident {
+    color: #e84f18;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
