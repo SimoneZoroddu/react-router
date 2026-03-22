@@ -1,13 +1,28 @@
 @import url('bootstrap');
+/* font Divertente */
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/* font per Belleza */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font Neutro per Pagina */
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
-#bg_footer{
-    background-color: #e84f18;
+* {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-#bg_header{
+
+#bg_header, .bg_funny {
     background-color: #fcee02;
+}
+
+.bg_main {
+    background-color: #ac3408;
+}
+
+#bg_footer, .bg_confident {
+    background-color: #e84f18;
 }
 
 .text_funny {
@@ -19,13 +34,13 @@
 }
 
 .indie-flower-regular {
-  font-family: "Indie Flower", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
