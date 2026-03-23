@@ -40,7 +40,7 @@ export default function SingleProduct() {
                                             <p className="card-text">{item.description}</p>
                                             <p className="card-text text-primary">{item.price} €</p>
                                             <div className="position-absolute bottom-0 end-0">Voto:{item.rating.rate} Recensioni: {item.rating.count}</div>
-                                            <Link to={`/prodotti`}>Dettagli Prodotto</Link>
+                                            <Link to={`/prodotti`}>Torna alla lista dei prodotti</Link>
                                         </div>
                                     </div>
                                 </div>

@@ -33,14 +33,12 @@ export default function Prodotti() {
                             productArray.map(singleProduct => (
                                 <div className="col g-4 text-center" key={singleProduct.id}>
                                     <div className="card bg_confident border-0 h-100 position-relative text-white">
-                                        <h5 className="card-title text_funny" style={{height: "4rem"}} >{singleProduct.title}</h5>
+                                        <h5 className="card-title text_funny fs-2" style={{height: "7rem"}} >{singleProduct.title}</h5>
                                         <img src={singleProduct.image} className="card-img-top bg_funny" alt={singleProduct.title}  style={{height: "30rem"}}/>
                                         <div className="card-body">
-                                            <h6 className="card-subtitle mb-2 text-muted ">{singleProduct.category}</h6>
-                                            <p className="card-text">{singleProduct.description}</p>
-                                            <p className="card-text text-primary">{singleProduct.price} €</p>
-                                            <div className="position-absolute bottom-0 end-0">Voto:{singleProduct.rating.rate} Recensioni: {singleProduct.rating.count}</div>
+                                            <p className="card-text text-primary text-start">{singleProduct.price} €</p>
                                             <Link to={`/prodotti/${singleProduct.id}`}>Dettagli Prodotto</Link>
+                                            <div className="position-absolute bottom-0 end-0">Voto:{singleProduct.rating.rate} Recensioni: {singleProduct.rating.count}</div>
                                         </div>
                                     </div>
                                 </div>

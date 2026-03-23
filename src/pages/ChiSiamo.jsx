@@ -7,7 +7,6 @@ export default function ChiSiamo() {
 
     return (
         <>
-
             <main className="bg_main p-2">
                 <div className="container bg_confident p-3">
                     <div className="row text-center">
@@ -20,8 +19,6 @@ export default function ChiSiamo() {
                     </div>
                 </div>
             </main>
-
         </>
-
     )
 }
