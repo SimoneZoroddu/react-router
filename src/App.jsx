@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import DefaultLayout from "./layout/DefaultLayout"
-import HomePage from "./pages/Homepage"
+import HomePage from "./pages/HomePage"
 import Prodotti from "./pages/Prodotti"
-import ChiSiamo from "./pages/Chi siamo"
+import ChiSiamo from "./pages/ChiSiamo"
 import SingleProduct from "./pages/SingleProduct"
 
 function App() {

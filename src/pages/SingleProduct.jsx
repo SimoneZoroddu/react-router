@@ -34,7 +34,7 @@ export default function SingleProduct() {
                                 <div className="col g-4 text-center" key={item.id}>
                                     <div className="card bg_confident border-0 h-100 position-relative text-white">
                                         <h5 className="card-title text_funny" style={{ height: "4rem" }} >{item.title}</h5>
-                                        <img src={item.image} className="card-img-top bg-white" alt={item.title} />
+                                        <img src={item.image} className="card-img-top bg_funny" alt={item.title} />
                                         <div className="card-body">
                                             <h6 className="card-subtitle mb-2 text-muted ">{item.category}</h6>
                                             <p className="card-text">{item.description}</p>

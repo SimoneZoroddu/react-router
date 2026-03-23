@@ -5,7 +5,7 @@ import axios from "axios";
 const urlProduct = 'https://fakestoreapi.com/products'
 
 
-export default function Products() {
+export default function Prodotti() {
     const [productArray, setProductArray] = useState([])
 
 
@@ -34,7 +34,7 @@ export default function Products() {
                                 <div className="col g-4 text-center" key={singleProduct.id}>
                                     <div className="card bg_confident border-0 h-100 position-relative text-white">
                                         <h5 className="card-title text_funny" style={{height: "4rem"}} >{singleProduct.title}</h5>
-                                        <img src={singleProduct.image} className="card-img-top bg-white" alt={singleProduct.title}  style={{height: "30rem"}}/>
+                                        <img src={singleProduct.image} className="card-img-top bg_funny" alt={singleProduct.title}  style={{height: "30rem"}}/>
                                         <div className="card-body">
                                             <h6 className="card-subtitle mb-2 text-muted ">{singleProduct.category}</h6>
                                             <p className="card-text">{singleProduct.description}</p>
